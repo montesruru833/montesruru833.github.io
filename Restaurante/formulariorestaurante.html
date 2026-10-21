@@ -90,6 +90,46 @@
     Si desea saber cómo protegemos sus datos, consulte nuestra <a href="#" target="_blank">Política de privacidad</a>.
   </p>
 </form>   
+
+
+<form>
+  <!-- Encabezado y botón de cierre -->
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <h2>Envíenos su mensaje</h2>
+    <span style="cursor: pointer; font-size: 20px;"></span>
+  </div>
+
+  <br>
+
+  <!-- Fila 1: Tres campos alineados -->
+  <div style="display: flex; gap: 10px;">
+    <input type="text" id="nombre" name="nombre" placeholder="Su nombre" style="flex: 1;">
+    <input type="email" id="email" name="email" placeholder="Su correo electrónico" style="flex: 1;">
+    <input type="tel" id="telefono" name="telefono" placeholder="su teléfono" style="flex: 1;">
+  </div>
+
+  <br>
+
+  <!-- Fila 2: Campo de Asunto -->
+  <div>
+    <input type="text" id="asunto" name="asunto" placeholder="Asunto" style="width: 100%; box-sizing: border-box;">
+  </div>
+
+  <br>
+
+  <!-- Fila 3: Área de mensaje largo con contador -->
+  <div>
+    <textarea id="mensaje" name="mensaje" placeholder="Su mensaje" maxlength="500" rows="8" style="width: 100%; box-sizing: border-box;"></textarea>
+    <small style="display: block; font-size: 12px;">0 / 500</small>
+  </div>
+
+  <br>
+
+  <!-- Fila 4: Botón de envío alineado a la derecha -->
+  <div style="text-align: right;">
+    <button type="submit">ENVIAR</button>
+  </div>
+</form>
     
         </article>
 
