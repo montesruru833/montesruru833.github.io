@@ -35,11 +35,11 @@
     <section>
     
         <article>
-           <form>
+ <form>
   <!-- Encabezado y botón de cierre -->
   <div style="display: flex; justify-content: space-between; align-items: center;">
-    <h2>Envíenos su mensaje</h2>
-    <span style="cursor: pointer; font-size: 20px;"></span>
+    <h2>Deje su reseña del restaurante</h2>
+    <span style="cursor: pointer; font-size: 20px;">&times;</span>
   </div>
 
   <br>
@@ -48,21 +48,28 @@
   <div style="display: flex; gap: 10px;">
     <input type="text" id="nombre" name="nombre" placeholder="Su nombre" style="flex: 1;">
     <input type="email" id="email" name="email" placeholder="Su correo electrónico" style="flex: 1;">
-    <input type="tel" id="telefono" name="telefono" placeholder="su teléfono" style="flex: 1;">
+    <select id="valoracion" name="valoracion" style="flex: 1;">
+      <option value="" disabled selected>Puntuación (1 a 5 estrellas)</option>
+      <option value="5">★★★★★ (Excelente)</option>
+      <option value="4">★★★★☆ (Muy bueno)</option>
+      <option value="3">★★★☆☆ (Aceptable)</option>
+      <option value="2">★★☆☆☆ (Regular)</option>
+      <option value="1">★☆☆☆☆ (Malo)</option>
+    </select>
   </div>
 
   <br>
 
-  <!-- Fila 2: Campo de Asunto -->
+  <!-- Fila 2: Campo de Titular/Resumen -->
   <div>
-    <input type="text" id="asunto" name="asunto" placeholder="Asunto" style="width: 100%; box-sizing: border-box;">
+    <input type="text" id="titulo" name="titulo" placeholder="Título de la reseña (ej. ¡Comida deliciosa y gran servicio!)" style="width: 100%; box-sizing: border-box;">
   </div>
 
   <br>
 
-  <!-- Fila 3: Área de mensaje largo con contador -->
+  <!-- Fila 3: Área de opinión con contador -->
   <div>
-    <textarea id="mensaje" name="mensaje" placeholder="Su mensaje" maxlength="500" rows="8" style="width: 100%; box-sizing: border-box;"></textarea>
+    <textarea id="opinion" name="opinion" placeholder="Cuéntenos su experiencia con la comida, el trato, el ambiente..." maxlength="500" rows="8" style="width: 100%; box-sizing: border-box;"></textarea>
     <small style="display: block; font-size: 12px;">0 / 500</small>
   </div>
 
@@ -70,12 +77,9 @@
 
   <!-- Fila 4: Botón de envío alineado a la derecha -->
   <div style="text-align: right;">
-    <button type="submit">ENVIAR</button>
+    <button type="submit">PUBLICAR RESEÑA</button>
   </div>
-</form>
-
-
-
+ </form>
 
     
         </article>
@@ -91,8 +95,8 @@
 <footer>
     <br><br>
  <a>Pagina web de Sergio ©2026</a>  
- <a href="/montesruru833.github.io/Restaurante/restaurante.html">Vuleve al menu.</a>
-    
+ 
+ <a href="../Restaurante/restaurante.html">Vuelve al restaurante</a>
 </footer>
 
 </body>
