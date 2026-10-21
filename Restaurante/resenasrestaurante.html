@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formunario">
+    <meta name="author" content="Sergio">
+    <meta name="keywords" content="html, pagina, formulario, nombre">
+
+    <link rel="icon" type="image/jpg" href="Restaurante/imagenes/logo_sergio.jpg">
+
+    <title>Formulario</title>
+    
+</head>
+<body>
+
+<header>
+    <h1>Reservas para restaurante</h1>
+</header>
+
+<nav>
+ 
+</nav>
+
+<header>
+    
+</header>
+
+<nav>
+
+</nav>
+
+<main>
+
+    <section>
+    
+        <article>
+ <form>
+  <!-- Encabezado y botón de cierre -->
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <h2>Deje su reseña del restaurante</h2>
+    <span style="cursor: pointer; font-size: 20px;">&times;</span>
+  </div>
+
+  <br>
+
+  <!-- Fila 1: Tres campos alineados -->
+  <div style="display: flex; gap: 10px;">
+    <input type="text" id="nombre" name="nombre" placeholder="Su nombre" style="flex: 1;">
+    <input type="email" id="email" name="email" placeholder="Su correo electrónico" style="flex: 1;">
+    <select id="valoracion" name="valoracion" style="flex: 1;">
+      <option value="" disabled selected>Puntuación (1 a 5 estrellas)</option>
+      <option value="5">★★★★★ (Excelente)</option>
+      <option value="4">★★★★☆ (Muy bueno)</option>
+      <option value="3">★★★☆☆ (Aceptable)</option>
+      <option value="2">★★☆☆☆ (Regular)</option>
+      <option value="1">★☆☆☆☆ (Malo)</option>
+    </select>
+  </div>
+
+  <br>
+
+  <!-- Fila 2: Campo de Titular/Resumen -->
+  <div>
+    <input type="text" id="titulo" name="titulo" placeholder="Título de la reseña (ej. ¡Comida deliciosa y gran servicio!)" style="width: 100%; box-sizing: border-box;">
+  </div>
+
+  <br>
+
+  <!-- Fila 3: Área de opinión con contador -->
+  <div>
+    <textarea id="opinion" name="opinion" placeholder="Cuéntenos su experiencia con la comida, el trato, el ambiente..." maxlength="500" rows="8" style="width: 100%; box-sizing: border-box;"></textarea>
+    <small style="display: block; font-size: 12px;">0 / 500</small>
+  </div>
+
+  <br>
+
+  <!-- Fila 4: Botón de envío alineado a la derecha -->
+  <div style="text-align: right;">
+    <button type="submit">PUBLICAR RESEÑA</button>
+  </div>
+ </form>
+
+    
+        </article>
+
+    </section>
+
+    <aside>
+    
+    </aside>
+
+</main>
+
+<footer>
+    <br><br>
+ <a>Pagina web de Sergio ©2026</a>  
+ <a href="/montesruru833.github.io/index.html" >Vuelve al principio</a>
+    
+</footer>
+
+</body>
+   
+</body>
+</html>
