@@ -1,0 +1,56 @@
+/*  Color texto y fondo  rgb() #hexadecimal oklch() hls() */
+body{
+    background-color: rgb(253, 252, 253);
+}
+header{
+    background-color: rgb(255, 167, 167);
+}
+h1{
+    color: white;
+    background-color: rgb(255, 167, 167);
+    width: 5%;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+h2{
+    color: white;
+    background-color: rgb(255, 167, 167);
+    width: 5%;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+/* Dar formato a una marca dentro de otra */
+
+
+
+
+/* Centrado de texto */
+
+
+
+/* Colocar bordes*/
+
+
+
+/* Id */
+
+
+
+/* Clases */
+.pie{
+    background-color: #9fffb7;
+    width: 13%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+/* Pseudoclase Hover*/
+
+
+
+/* Decoracion de texto */

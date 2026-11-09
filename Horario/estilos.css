@@ -1,12 +1,17 @@
 /*  Color texto y fondo  rgb() #hexadecimal oklch() hls() */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
 header{
     color:blue;
-    background-color: rgb(101, 4, 131);
     text-align: center;
     padding: 1px;
+    
 }
 h2{
-    color:rgb(204, 238, 9);
+    color:rgb(238, 9, 9);
     text-align: center;
     padding: 1px;
 }
@@ -16,15 +21,20 @@ h1{
 }
 nav{
     color:blue;
-    background-color:darkcyan;
+    background-color:rgb(215, 253, 253);
     text-align: center;
+    
 }
 footer{
     color:rgb(231, 43, 9);
-    background-color:rgb(136, 167, 197);
+    background-color:rgb(180, 218, 255);
     text-align: center;
+    
 }
-
+body{
+    background-color:rgb(182, 234, 243);
+    cursor: url("imagenes_estilos/cursor.cur"), auto 
+}
 
 /* Dar formato a una marca dentro de otra */
 
@@ -32,6 +42,7 @@ footer{
 
 
 /* Centrado de texto */
+
 
 
 /* Colocar bordes*/
@@ -82,14 +93,14 @@ table,tr,td{
     text-align: center;
 }
 /* Pseudoclase Hover*/
-a:hover{
-    color:rgb(167, 51, 51);
-    cursor:cell;
+
+.pie {
+    background-color: #2faaf1;
+    width: 13%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 100px;
 }
 
 /* Decoracion de texto */
-a{
-    text-decoration: none;
-}
-
 
