@@ -1,47 +1,97 @@
-/*  Color texto y fondo  rgb() #hexadecimal oklch() hls() */
-body{
-    background-color: rgb(253, 252, 253);
-}
-header{
-    background-color: rgb(255, 167, 167);
-}
-h1{
-    color: white;
-    background-color: rgb(255, 167, 167);
-    
-}
 
-h2{
-    color: white;
-    background-color: rgb(255, 167, 167);
-}
-nav{
-    background-color: rgb(238, 126, 126);
-    text-align: center;
-}
-/* Dar formato a una marca dentro de otra */
-
-
-/* Centrado de texto */
-
-
-/* Colocar bordes*/
-
-
-/* Id */
-
-
-/* Clases */
-.pie{
-    background-color: #9fffb7;
-    width: 13%;
-    margin: 0 auto;
-    padding: 25px;
-    border-radius: 50px;
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", system-ui, Arial, sans-serif;
+  color: #1f2347;
+  text-align: center;
+  background: linear-gradient(135deg, #99fca1 0%, #cfa4af 50%, #92e6ee 100%);
+  background-attachment: fixed;
+  cursor: url(./Restaurante/imagenes_cursor/mano.cur), auto;
 }
 
-/* Pseudoclase Hover*/
+/* Título */
+h1 {
+  margin: 0;
+  padding: 50px 10px 5px;
+  font-size: 3.5rem;
+  letter-spacing: -1px;
+  background: linear-gradient(1deg, #743e02, #07c000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 
+h2 {
+  display: inline-block;
+  margin: 8px 0 35px;
+  padding: 5px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #5b6285;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+}
 
+/* Menú de proyectos: tres tarjetas grandes */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
 
-/* Decoracion de texto */
+nav a {
+  min-width: 210px;
+  padding: 35px 25px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #1f2f74;
+  background: white;
+  border-radius: 20px;
+  border-top: 8px solid #0c007c;
+  box-shadow: 0 15px 30px -15px rgb(255, 0, 0);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Un color para cada proyecto */
+nav a:nth-child(1) { border-top-color: #f91616; } /* Restaurante */
+nav a:nth-child(2) { border-top-color: #4245ff; } /* Horario */
+nav a:nth-child(3) { border-top-color: #22c55e; } /* Formularios */
+
+nav a:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 35px -15px rgba(79, 70, 229, 0.5);
+}
+
+/* Contenido vacío */
+main {
+  flex: 1;
+}
+
+section:empty,
+article:empty,
+aside:empty {
+  display: none;
+}
+
+/* Pie */
+.pie {
+  padding: 30px 10px;
+  color: #5b6285;
+}
+
+/* Móvil  */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  nav a {
+    width: 100%;
+  }
+}
