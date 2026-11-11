@@ -14,9 +14,11 @@ h1{
 h2{
     color: white;
     background-color: rgb(255, 167, 167);
-   
 }
-
+nav{
+    background-color: rgb(238, 126, 126);
+    text-align: center;
+}
 /* Dar formato a una marca dentro de otra */
 
 

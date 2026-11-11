@@ -27,7 +27,6 @@ nav{
 }
 footer{
     color:rgb(231, 43, 9);
-    background-color:rgb(180, 218, 255);
     text-align: center;
     
 }
@@ -49,6 +48,7 @@ body{
 
 table,tr,td{
     border: 1px solid black;
+    text-align: center;
 }
 
 /* Id */
@@ -94,13 +94,6 @@ table,tr,td{
 }
 /* Pseudoclase Hover*/
 
-.pie {
-    background-color: #2faaf1;
-    width: 13%;
-    margin: auto;
-    padding: 20px;
-    border-radius: 100px;
-}
 
 /* Decoracion de texto */
 
