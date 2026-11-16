@@ -18,11 +18,11 @@ h1 {
   padding: 50px 10px 5px;
   font-size: 3.5rem;
   letter-spacing: -1px;
-  background: linear-gradient(1deg, #743e02, #07c000);
+  background: linear-gradient(1deg, #ff8e0c, #c00000);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-}
+  text-shadow: 0 0 10px rgba(170, 139, 255, 0.438);}
 
 h2 {
   display: inline-block;
