@@ -7,7 +7,7 @@ body {
   font-family: "Segoe UI", system-ui, Arial, sans-serif;
   color: #1f2347;
   text-align: center;
-  background: linear-gradient(135deg, #60ff6e 0%, #d8e42f 50%, #c41d1d 100%);
+  background: linear-gradient(135deg, #b2ffb8 0%, #abcdff 50%, #f8acac 100%);
   background-attachment: fixed;
   cursor: url(./Restaurante/imagenes_cursor/mano.cur), auto;
 }
@@ -82,7 +82,7 @@ aside:empty {
 /* Pie */
 .pie {
   padding: 30px 10px;
-  color: #1100ff;
+  color: #7700ff;
 }
 
 /* Móvil  */
