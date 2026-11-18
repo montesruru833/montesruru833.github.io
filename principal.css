@@ -53,7 +53,7 @@ nav a {
   color: #1f2f74;
   background: white;
   border-radius: 20px;
-  border-top: 8px solid #0c007c;
+  border-top: 8px solid #00ff2a;
   box-shadow: 0 15px 30px -15px rgb(255, 0, 0);
   transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -65,7 +65,7 @@ nav a:nth-child(3) { border-top-color: #22c55e; } /* Formularios */
 
 nav a:hover {
   transform: translateY(-6px);
-  box-shadow: 0 22px 35px -15px rgba(79, 70, 229, 0.5);
+  box-shadow: 0 22px 35px -15px rgb(9, 255, 0);
 }
 
 /* main */
@@ -85,13 +85,3 @@ aside:empty {
   color: #7700ff;
 }
 
-/* Móvil  */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2.3rem;
-  }
-
-  nav a {
-    width: 100%;
-  }
-}

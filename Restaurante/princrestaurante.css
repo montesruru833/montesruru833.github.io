@@ -133,14 +133,3 @@ footer a:hover {
     text-decoration: none;
 }
 
-/* Adaptación a móvil */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 1.7rem;
-        letter-spacing: 1px;
-    }
-
-    nav a {
-        width: 100%;
-    }
-}
